@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-image: url(wrtFileImageView.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            height: 100vh; /* 화면 전체 높이 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .hero h1 {
+            font-size: 4em;
+            font-weight: bold;
+            background: linear-gradient(to right, #ff677d, #fcbf49, #ffb875, #b1ffb7, #62aeff, #6b59a7, #e31bf1); /* 파스텔톤 색상 조합 */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 부드러운 그림자 효과 */
+        }
+        .hero button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>RAINBOW</h1>
+        <button>Learn More</button>
+    </div>
+    <!-- Bootstrap JS 및 Popper.js 링크 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
